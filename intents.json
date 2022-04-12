@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [ "hello", "hi", "good day", "greetings", "what's up?", "how is it going" ],
+      "responses": [ "Hello!", "Hey!", "What can i do for you?" ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ "see you later", "goodbye", "bye", "i am leaving", "have a good day", "cya" ],
+      "responses": [ "Goodbye", "Talk to you later", "Have a nice day" ]
+    },
+    {
+      "tag": "name",
+      "patterns": [ "who are you?", "what's your name?", "who is this?", "can you tell me your name?" ],
+      "responses": [ "I'm Neural", "You can call me Neural", "My name is Neural" ]
+    },
+    {
+      "tag": "conditions",
+      "patterns": [ "how are you?", "what's your status?", "is everything alright?", "how are you feeling?" ],
+      "responses": [ "I'm fine", "I'm feeling great, thank you", "Everything is going awesome!" ]
+    }
+  ]
+}
